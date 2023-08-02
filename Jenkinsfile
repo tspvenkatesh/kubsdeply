@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "nagamlak/first2"
+    dockerimagename = "tspvenkatesh/firstnew2"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/naga1979/nodeapp_test.git'
+        git 'https://github.com/tspvenkatesh/kubsdeply.git'
       }
     }
 
